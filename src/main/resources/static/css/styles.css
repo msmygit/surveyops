@@ -1,0 +1,140 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 1rem;
+    transition: background-color 0.2s;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.presentation-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentation-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+}
+
+.status-badge {
+    font-size: .75rem;
+    padding: .25rem .5rem;
+    border-radius: 50rem;
+}
+
+.status-active {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.status-ended {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+/* Search Bar */
+.input-group {
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+}
+
+.input-group .form-control {
+    border-right: none;
+}
+
+.input-group .btn {
+    border-left: none;
+    background-color: #fff;
+}
+
+/* Filter Buttons */
+.btn-group .btn {
+    border-radius: 0.25rem;
+}
+
+.btn-group .btn.active {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/* Modal */
+.modal-content {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+/* Toast */
+.toast {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.toast-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+/* Loading Spinner */
+.spinner-border {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.15em;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .presentation-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .presentation-actions {
+        width: 100%;
+        justify-content: flex-end;
+    }
+} 
